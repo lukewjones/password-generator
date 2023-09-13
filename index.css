@@ -16,6 +16,7 @@ body {
     text-align: left;
     margin-left: 52px;
     max-width: 370px;
+    font-family: 'Karla', sans-serif;
 }
 
 .generator {
@@ -23,6 +24,8 @@ body {
 
 h1 {
     color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
 }
 
 h1 span {
@@ -32,6 +35,7 @@ h1 span {
 
 .tagline {
     color: #D5D4D8;
+    font-family: 'Karla', sans-serif;
 }
 
 button {
