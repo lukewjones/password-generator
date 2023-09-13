@@ -15,16 +15,12 @@ body {
     background-color: #1f2937;
     text-align: left;
     margin: 52px;
-    max-width: 370px;
     font-family: 'Karla', sans-serif;
-}
-
-.generator {
+    color: #fff;
 }
 
 h1 {
     margin-top: 0;
-    color: #fff;
     font-family: 'Karla', sans-serif;
     font-weight: 800;
 }
@@ -39,34 +35,42 @@ h1 span {
     font-family: 'Karla', sans-serif;
 }
 
+#pass-length {
+    background: transparent;
+    border: none;
+    color: var(--green-300);
+}
+
 button {
     border-radius: 6px;
-    background: #10B981;
+    background: var(--green-500);
     border: transparent;
     padding: 9px 17px;
     font-size: 16px;
-    color: #fff;
     margin: 25px 0px;
+    color: inherit;
 }
 
 .line { 
     border: solid 1px #2F3E53;
-}
-
-.result {
-
+    max-width: 370px;
+    margin: 10px 0;
 }
 
 .pass {
-    //display: flex;
-    //justify-content: space-between;
     color: #55F991;
     background-color: #273549;
     display: inline-block;
     min-width: 144px;
-    height: 20px;
     margin: 10px 0px 10px 0px;
     padding: 10px 15px;
     text-align: center;
     border-radius: 6px;
+    appearance: none;
+    transition: background-color 0.75s ease-out;
+}
+
+.pass-copied {
+    background-color: var(--green-900);
+    transition-duration: 0s;
 }
