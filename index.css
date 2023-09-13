@@ -1,0 +1,67 @@
+:root {
+    --green-900: #064e3b;
+    --green-800: #065f46;
+    --green-700: #047857;
+    --green-600: #059669;
+    --green-500: #10b981;
+    --green-400: #34d399;
+    --green-300: #6ee7b7;
+    --green-200: #a7f3d0;
+    --green-100: #d1fae5;
+    --green-50: #ecfdf5;
+}
+
+body {
+    background-color: #1f2937;
+    text-align: left;
+    margin-left: 52px;
+    max-width: 370px;
+}
+
+.generator {
+}
+
+h1 {
+    color: #fff;
+}
+
+h1 span {
+    color: var(--green-400);
+    display: block
+}
+
+.tagline {
+    color: #D5D4D8;
+}
+
+button {
+    border-radius: 6px;
+    background: #10B981;
+    border: transparent;
+    padding: 9px 17px;
+    font-size: 16px;
+    color: #fff;
+    margin: 25px 0px;
+}
+
+.line { 
+    border: solid 1px #2F3E53;
+}
+
+.result {
+
+}
+
+.pass {
+    //display: flex;
+    //justify-content: space-between;
+    color: #55F991;
+    background-color: #273549;
+    display: inline-block;
+    min-width: 144px;
+    height: 20px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 6px;
+}
